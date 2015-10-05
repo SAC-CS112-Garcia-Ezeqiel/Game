@@ -67,3 +67,4 @@ public class game {
 	 }
 
 
+// Let's make the code easier to read by using Rock/Paper instead of R/P
