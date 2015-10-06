@@ -46,20 +46,20 @@ public class game {
 
 	     if (personPlay.equals(computerPlay)) 
 	        System.out.println("It's a tie!"); 
-	     else if (personPlay.equals("R")) 
-	        if (computerPlay.equals("S")) 
+	     else if (personPlay.equals("Rock")) 
+	        if (computerPlay.equals("Scissors")) 
 	           System.out.println("Rock crushes scissors. You win!!");
-	     else if (computerPlay.equals("P")) 
+	     else if (computerPlay.equals("Paper")) 
 	             System.out.println("Paper eats rock. You lose!!"); 
-	     else if (personPlay.equals("P")) 
-	        if (computerPlay.equals("S")) 
+	     else if (personPlay.equals("Paper")) 
+	        if (computerPlay.equals("Scissors")) 
 	        System.out.println("Scissor cuts paper. You lose!!"); 
-	     else if (computerPlay.equals("R")) 
+	     else if (computerPlay.equals("Rock")) 
 	             System.out.println("Paper eats rock. You win!!"); 
-	     else if (personPlay.equals("S")) 
-	          if (computerPlay.equals("P")) 
+	     else if (personPlay.equals("Scissors")) 
+	          if (computerPlay.equals("Paper")) 
 	          System.out.println("Scissor cuts paper. You win!!"); 
-	     else if (computerPlay.equals("R")) 
+	     else if (computerPlay.equals("Rock")) 
 	             System.out.println("Rock breaks scissors. You lose!!"); 
 	     else 
 	          System.out.println("Invalid user input."); 
